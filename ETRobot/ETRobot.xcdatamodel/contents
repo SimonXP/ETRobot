@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Xcode 7.0">
+    <entity name="LoginUserInfo" representedClassName="LoginUserInfo" syncable="YES">
+        <attribute name="logiinUserPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loginUserAccount" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RegisterAnimationInfo" representedClassName="RegisterAnimationInfo" syncable="YES">
+        <attribute name="registerAnimationValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RobotInfo" representedClassName="RobotInfo" syncable="YES">
+        <attribute name="rid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robotAdmin" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robotIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robotMemberNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robotName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="robotNumber" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="RobotMemberInfo" representedClassName="RobotMemberInfo" syncable="YES">
+        <attribute name="adminType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userIcon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="avatar" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientAccount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="clientPwd" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ip" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastloginTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mobile" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updateTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userPassword" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voipAccount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voipToken" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="RegisterAnimationInfo" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="UserInfo" positionX="-63" positionY="-9" width="128" height="270"/>
+        <element name="LoginUserInfo" positionX="-63" positionY="99" width="128" height="75"/>
+        <element name="RobotMemberInfo" positionX="-36" positionY="117" width="128" height="120"/>
+        <element name="RobotInfo" positionX="-18" positionY="126" width="128" height="135"/>
+    </elements>
+</model>

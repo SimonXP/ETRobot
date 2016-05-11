@@ -1,0 +1,102 @@
+//
+//  ETRobot.pch
+//  ETRobot
+//
+//  Created by IHOME on 16/4/28.
+//  Copyright © 2016年 IHOME. All rights reserved.
+//
+
+
+//framework
+#import <AddressBook/AddressBook.h>
+#import <MessageUI/MessageUI.h>
+#import <CoreMedia/CoreMedia.h>
+#import <CoreFoundation/CoreFoundation.h>
+#import <MediaPlayer/MediaPlayer.h>
+#import <AVFoundation/AVFoundation.h>
+#import <CoreTelephony/CoreTelephonyDefines.h>
+#import <CoreLocation/CoreLocation.h>
+#import <StoreKit/StoreKit.h>
+#import <MobileCoreServices/MobileCoreServices.h>
+#import <SystemConfiguration/SystemConfiguration.h>
+#import <CFNetwork/CFNetwork.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <CoreAudioKit/CoreAudioKit.h>
+#import <MapKit/MapKit.h>
+#import <AddressBookUI/AddressBookUI.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <UIKit/UIKit.h>
+#import <CommonCrypto/CommonDigest.h>
+#import <CoreData/CoreData.h>
+
+
+//view controller
+#import "XPTabBarViewController.h"
+#import "LoginViewController.h"
+#import "VerifyCodeViewController.h"
+#import "RegisterMsgViewController.h"
+#import "UserIconViewController.h"
+#import "ForgotPwdViewController.h"
+#import "RobotTableViewCell.h"
+#import "InspectViewController.h"
+#import "VoiceViewController.h"
+#import "VideoViewController.h"
+#import "RobotViewController.h"
+#import "MoreOperateViewController.h"
+#import "AlbumViewController.h"
+#import "AlbumTableViewCell.h"
+#import "MeViewController.h"
+#import "MeTableViewCell.h"
+#import "UserTableViewCell.h"
+#import "UserViewController.h"
+#import "UserOperateViewController.h"
+#import "AddRobotViewController.h"
+#import "AddRobotTableViewCell.h"
+#import "RobotDetailViewController.h"
+#import "RobotDetailTableViewCell.h"
+#import "RobotCodeViewController.h"
+#import "ScanRobotViewController.h"
+
+
+
+
+
+#import "URL.h"
+
+//tool
+#import "VoipHelper.h"
+#import "OverallObject.h"
+#import "XPAFNetworkingTool.h"
+#import "TCPHelper.h"
+#import "LocationHelper.h"
+
+//vendor
+#import "UCSCommonClass.h"
+#import "UCSEvent.h"
+#import "UCSService.h"
+#import "EnumerateTool.h"
+
+#import "UIImageView+LBBlurredImage.h"
+#import "SVProgressHUD.h"
+#import "SSARefreshControl.h"
+#import "FXLabel.h"
+#import "AFNetworking.h"
+#import "CLLocation+YCLocation.h"
+
+
+//view model
+#import "PublicViewModel.h"
+#import "PublicMethodModel.h"
+
+//database
+#import "OpenDBOperate.h"
+#import "UserInfoOperate.h"
+#import "LoginUserInfoOperate.h"
+#import "RobotInfoOperate.h"
+#import "RobotMemberInfoOperate.h"
+
+//常量值
+#import "ConstValue.h"
+
